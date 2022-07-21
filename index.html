@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="fs-1 text-center bg-success">Bài tập thêm buổi 3 JS</h1>
+    </header>
+    <div class="bai1">
+      <div class="d-flex justify-content-center mt-5">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center"></div>
+          <div class="card-body">
+            <h2 class="text-center fs-2">bài1: sắp xếp thứ tự các số sau</h2>
+            <div class="form-group">
+              <p>Số đầu tiên</p>
+              <input class="form-control" id="num1" />
+            </div>
+            <div class="form-group">
+              <p>Số thứ hai</p>
+              <input class="form-control" id="num2" />
+            </div>
+            <div class="form-group">
+              <p>Số thứ ba</p>
+              <input class="form-control" id="num3" />
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button
+              class="btn btn-primary mt-2"
+              type="button"
+              id="btnListNumber"
+            >
+              Tinh Tien
+            </button>
+          </div>
+          <div class="mt-2" id="showNumber"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bai2">
+      <div class="d-flex justify-content-center mt-5">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center"></div>
+          <div class="card-body">
+            <h2 class="text-center fs-2">bài2: Chào gia đình</h2>
+            <div class="form-group">
+              <h3>Ai đó</h3>
+              <select class="form-control" name="" id="selectName">
+                <option value="B">Bố</option>
+                <option value="M">Mẹ</option>
+                <option value="A">Anh Trai</option>
+                <option value="E">Em gái</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary mt-2" type="button" id="btnHiFamily">
+              Đăng nhập
+            </button>
+          </div>
+          <div class="mt-2" id="hiFamily"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bai3">
+      <div class="d-flex justify-content-center mt-5">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center"></div>
+          <div class="card-body">
+            <h2 class="text-center fs-2">bài4:Xác định tam giác</h2>
+            <div class="form-group">
+              <p>Cạnh đầu tiên</p>
+              <input class="form-control" id="side1" />
+            </div>
+            <div class="form-group">
+              <p>Cạnh thứ hai</p>
+              <input class="form-control" id="side2" />
+            </div>
+            <div class="form-group">
+              <p>Cạnh thứ ba</p>
+              <input class="form-control" id="side3" />
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary mt-2" type="button" id="btnTriangle">
+              Tinh Tien
+            </button>
+          </div>
+          <div class="mt-2" id="showTriangle"></div>
+        </div>
+      </div>
+    </div>
+    <div class="bai3">
+      <div class="d-flex justify-content-center mt-5">
+        <div class="card w-50">
+          <div class="card-header bg-dark text-white text-center"></div>
+          <div class="card-body">
+            <h2 class="text-center fs-2">bài3:Đếm số chẵn lẽ</h2>
+            <div class="form-group">
+              <p>Số nguyên đầu tiên</p>
+              <input class="form-control" id="const1" />
+            </div>
+            <div class="form-group">
+              <p>Số nguyên thứ hai</p>
+              <input class="form-control" id="const2" />
+            </div>
+            <div class="form-group">
+              <p>Số nguyên thứ 3</p>
+              <input class="form-control" id="const3" />
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary mt-2" type="button" id="btnCheck">
+              Tinh Tien
+            </button>
+          </div>
+          <div class="mt-2" id="showCheck"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
