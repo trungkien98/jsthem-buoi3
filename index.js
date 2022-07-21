@@ -105,5 +105,7 @@ document.getElementById("btnCheck").onclick = function () {
   } else {
     check = "Có 2 số lẻ và 1 số chẵn ";
   }
-  console.log(check);
+  document.getElementById("showCheck").innerHTML = check;
+  document.getElementById("showCheck").className =
+    "bg-light text-center text-warning fs-3";
 };
